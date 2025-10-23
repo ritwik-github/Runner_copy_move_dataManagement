@@ -1,0 +1,21 @@
+{
+  "project_root": "Q:/METAL/projects",
+  "active_department": "lighting",
+  "icon_age_threshold": 30,
+  "admin_users": [
+    "ritwik_g",
+    "ritwik.g",
+    "harshal_r",
+    "vinay_b"
+  ],
+  "departments": {
+    "lighting": {
+      "source_path": "lighting/houdini",
+      "publish_path": "publish/lighting/renders"
+    },
+    "fx": {
+      "source_path": "fx/houdini",
+      "publish_path": "publish/fx/renders"
+    }
+  }
+}
