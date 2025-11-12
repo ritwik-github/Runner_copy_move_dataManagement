@@ -1,0 +1,23 @@
+
+
+
+Restriction (May Occur)
+pyinstaller --onefile --windowed --add-data "xPubConfig.JSON;." --add-data "HowToOperate.JSON;." --add-data "ReleaseNotes.JSON;." --icon="film-reel.ico" xPubUi.py
+
+
+
+NO Restriction
+pyinstaller --windowed --add-data "xPubConfig.JSON;." --add-data "HowToOperate.JSON;." --add-data "ReleaseNotes.JSON;." --icon="film-reel.ico" xPubUi.py
+
+
+xPubUi/
+├── xPubUi.exe                 <-- Your main application executable
+├── xPubConfig.JSON            <-- Your added data file
+├── HowToOperate.JSON          <-- Your added data file
+├── ReleaseNotes.JSON          <-- Your added data file
+├── base_library.zip           <-- Core Python modules
+├── pythonXXX.dll              <-- Python DLL (e.g., python311.dll)
+├── various DLL files (.dll)   <-- Other needed system libraries
+├── various library folders    <-- Folders containing Python packages (like PySide6, psutil)
+└── _internal/                 <-- Folder containing PyInstaller's runtime files & other dependencies
+    └── ... (many files and folders)

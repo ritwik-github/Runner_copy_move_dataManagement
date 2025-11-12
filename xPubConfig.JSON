@@ -2,6 +2,7 @@
   "project_root": "Q:/METAL/projects",
   "active_department": "lighting",
   "icon_age_threshold": 30,
+  "throttle_delay_ms": 100,
   "admin_users": [
     "ritwik_g",
     "ritwik.g",
